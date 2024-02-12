@@ -31,8 +31,7 @@ print(tuple(a))
 #     Ожидаемый результат - программа выводит семью с бОльшим составом. Если состав одинаковый, print("Equal')
 family_1 = input().split(",")
 family_2 = input().split(",")
-print(family_1)
-print(family_2)
+
 if len(family_1) > len(family_2):
     print('Семья 1 больше')
 elif len(family_2) > len(family_1):
